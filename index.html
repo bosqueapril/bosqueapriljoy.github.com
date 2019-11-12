@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
-    
-        <title>Bosque Appliances</title>
-        <link href='style.css'  rel='stylesheet'>
-<body>
-    <ul>
-    <li><a class="a" href="index.html">Home</a></li>
-    <li><a class="" href="aboutus.html">About Us</a></li>
-    <li><a class="" href="login.html">Login</a> </li>
-     <li><a class="" href="contactus.html">Contact Us</a></li>
-    </ul>
-    <br><br> <br><br> <br><br> <br><br>
+<title>Bosque Appliances</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-  <head>
-  <center>
-   <div class="header">
-      <div class="container">
-        <h1 style="color: black ;"></h1>
-        <p style="color: black ;"></p>
-        <p style="color: black ;"></p>
-        
-      </div>
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+  } 
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .left {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:skyblue;padding:25px;">
+   <div class="w3-left w3-hide-small">
+       <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="about.html" class="w3-bar-item w3-button">About Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+      <a href="registration.html" class="w3-bar-item w3-button">Registration</a>
+      <a href="login.html" class="w3-bar-user w3-button">Login</a>
+
     </div>
-  </center>
-  </head>
+</div>
+  <div class="main">
+    <img src="images/app.jpg" style="width:100%">
+  </div>
 
 </body>
 </html>
